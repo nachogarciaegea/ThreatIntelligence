@@ -1,3 +1,4 @@
+URL / IP
 https[:]//94[.]140[.]115[.]91[:]447/
 https[:]//45[.]230[.]8[.]34[:]449/
 https[:]//43[.]245[.]216[.]190[:]449/
@@ -8,3 +9,15 @@ https[:]//144[.]172[.]64[.]26[:]443/
 https[:]//91[.]200[.]103[.]193[:]443/
 https[:]//94[.]140[.]115[.]229[:]447/
 https[:]//156[.]96[.]62[.]82[:]447/
+
+URL / IP / MD5	
+http://takpo.biz/main.php	
+http://takpo.biz/4.jpg	
+http://takpo.biz/7.jpg	
+http://takpo.biz/	
+http://takpo.biz/6.jpg	
+http://takpo.biz/1.jpg	
+http://takpo.biz/5.jpg	
+http://takpo.biz/3.jpg	
+http://takpo.biz/2.jpg	
+https://cdn.discordapp.com/attachments/906160963437363273/909150320997859438/Grindstone.exe	
