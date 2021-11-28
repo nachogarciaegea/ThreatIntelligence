@@ -1,0 +1,10 @@
+Advintel has witnessed two new TTPs relative to Ryuk ransomware campaigns that organizations should monitor closely as a means of detecting infections within their domain:
+
+CVE-2018-8453 – is an elevation of privilege vulnerability in Windows when the win23k.sys component fails to properly handle objects in memory. 
+The exploitation of this vulnerability allows an attacker to run an arbitrary kernel with read/write privileges;
+
+CVE-2019-1069 – is a privilege escalation vulnerability that leverages the way Windows Task Scheduler handles saved tasks. 
+Task Scheduler stores tasks as files in two locations, C:\Windows\Tasks and C:\Windows\System32\Tasks. 
+If an RPC client modifies a task using the service in the C:\Windows\Tasks location when modifications are saved the task will be migrated to C:\Windows\System32\Tasks.
+When saving a task file, the Task Scheduler service will set ownership and full control of the file to the owner of the task. This process allows an attacker to perpetrate a hard link attack. 
+Therefore, if an attacker manually places a file within C:\Windows\Tasks the attacker will be able to run this file with the highest level of privilege since the Task Scheduler service runs at the maximum level of privilege defined by the local machine.
