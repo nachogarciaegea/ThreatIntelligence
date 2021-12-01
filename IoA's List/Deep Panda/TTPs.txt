@@ -1,0 +1,29 @@
+Enterprise	T1059	.001	Command and Scripting Interpreter: PowerShell	
+Deep Panda has used PowerShell scripts to download and execute programs in memory, without writing to disk.[1]
+
+Enterprise	T1546	.008	Event Triggered Execution: Accessibility Features	
+Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.[3]
+
+Enterprise	T1564	.003	Hide Artifacts: Hidden Window	
+Deep Panda has used -w hidden to conceal PowerShell windows by setting the WindowStyle parameter to hidden. [1]
+
+Enterprise	T1027	.005	Obfuscated Files or Information: Indicator Removal from Tools	
+Deep Panda has updated and modified its malware, resulting in different hash values that evade detection.[4]
+
+Enterprise	T1057	Process Discovery	
+Deep Panda uses the Microsoft Tasklist utility to list processes running on systems.[1]
+
+Enterprise	T1021	.002	Remote Services: SMB/Windows Admin Shares	
+Deep Panda uses net.exe to connect to network shares using net use commands with compromised credentials.[1]
+
+Enterprise	T1018	Remote System Discovery	
+Deep Panda has used ping to identify other machines of interest.[1]
+
+Enterprise	T1505	.003	Server Software Component: Web Shell	
+Deep Panda uses Web shells on publicly accessible Web servers to access victim networks.[6]
+
+Enterprise	T1218	.010	Signed Binary Proxy Execution: Regsvr32	
+Deep Panda has used regsvr32.exe to execute a server variant of Derusbi in victim networks.[3]
+
+Enterprise	T1047	Windows Management Instrumentation	
+The Deep Panda group is known to utilize WMI for lateral movement.[1]
