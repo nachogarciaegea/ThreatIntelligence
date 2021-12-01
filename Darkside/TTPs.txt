@@ -1,0 +1,12 @@
+Enterprise	T1218	.003	Signed Binary Proxy Execution: CMSTP
+explota la función ShellExec mediante la interfaz CMSTPLUA COM {3E5FC7F9-9A51-4367-9063-A120244FBEC7}
+
+Enterprise	T1490	Inhibit System Recovery
+eliminar snapshots por una posible recuperación de archivos por parte del afectado
+
+Enterprise	T1059	.001	Command and Scripting Interpreter: PowerShell
+Así mismo utiliza el siguiente comando PowerShell para eliminar snapshots por una posible recuperación de archivos por parte del afectado
+
+Enterprise	T1071	.001	Application Layer Protocol: Web Protocols
+Resolution requests to DarkSide Command and Control domain name
+
